@@ -12,7 +12,7 @@ Includes everything you need to build statically linked Go apps
 
 Example:
 
-    FROM drola/go-static:latest
+    FROM mdrolc/go-static:latest
 	ENV APP_DIR $GOPATH/src/dev.drola.si/callwhisper/server
 	ENTRYPOINT ["/opt/app/server"]
 	ADD . $APP_DIR
