@@ -8,7 +8,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.lis
 
 curl -sL https://deb.nodesource.com/setup_6.x | bash -
 apt-get install -y build-essential nodejs nginx yarn
-apt-get install -y vim git wget xvfb libxrender-dev libasound2 libdbus-glib-1-2 libgtk2.0-0 bzip2 python
+apt-get install -y vim git wget xvfb libxrender-dev libasound2 libdbus-glib-1-2 libgtk2.0-0 bzip2 python supervisor cron
 
 apt-get autoclean
 apt-get clean
